@@ -2,7 +2,7 @@
     background-color: blueviolet;
 }
 
-.banner a{
+ a{
     color:white;
 }
 
@@ -16,62 +16,111 @@ button{
 }
 
 .main-page p{
-    margin-left: 45%;
-    margin-right: 55%;
-    width: 17em
+    margin-left: 40%;
+    margin-right: 60%;
+    width: 500px;
+    font-size: 30px;
+}
+.main-page{
+    font-size:50px;
+}
+.ul{
+    font-size:20px;
+    display:flex;
 }
 
 h1{
-    margin-left: 48%;
-    margin-right: 52%;
-    width: 7em
+    margin-left: 43%;
+    margin-right: 57%;
+    width: 500px;
+    font-size:50px;
+    
 }
 
+
 .musbat1{
-    margin-left: 49%;
-    margin-right: 51%;
-    width: 10em
+    margin-left: 47%;
+    margin-right: 53%;
+    width: 200px;
+    height: 50px;
 }
 
 .main-page{
+    color: blueviolet;
     background-image: url("../img/mainpage.jfif");
+    color: white;
+    height: 1000px;
 }
 
-.best p{
-    margin-left: 40%;
-    margin-right: 60%;
-    width: 30em
+
+.best{
+    background-image: url("../img/best.jfif");
+}
+.best p {
+    font-size: 20px;
+    display: flex;
 }
 
 .best p1 {
-    margin-left: 50%;
-    margin-right: 50%;
-    width: 30em
+    font-size: 20px;
+    display: flex;
 }
+
+
 
 .best h2{
     margin-left: 40%;
     margin-right: 60%;
-    width: 30em
+    width: 30em;
 }
 
 .about h3{
     margin-left: 45%;
     margin-right: 55%;
-    width: 30em
+    width: 30em;
 }
 
 .about p{
     margin-left: 60%;
     margin-right: 40%;
-    width: 30em
+    width: 30em;
 }
 
 .booking h4{
     margin-left: 45%;
     margin-right: 55%;
-    width: 30em
+    width: 30em;
+}
+.buttons{
+    display:flex;
+}
+ 
+button{
+    font-size:20px;
 }
 
+.about img{
+    width:40%;
+}
 
+.staff img{
+    width:15%;
+    display:flex;
+}
 
+.Using{
+    display: flex;
+    font-size:25px;
+}
+
+ul li {
+    display: inline;
+    margin-right: 5px;
+   
+   
+   
+   }
+
+.banner{
+    display:flex;
+}
