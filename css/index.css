@@ -2,6 +2,15 @@
     background-color: blueviolet;
 }
 
+body{
+    margin:auto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
  a{
     color:white;
 }
@@ -21,6 +30,8 @@ button{
     width: 500px;
     font-size: 30px;
 }
+
+
 .main-page{
     font-size:50px;
 }
@@ -49,30 +60,21 @@ h1{
     color: blueviolet;
     background-image: url("../img/mainpage.jfif");
     color: white;
-    height: 1000px;
+    height: 900px;
+    background: linear-gradient( rgba(221, 205, 114, 0.507),  rgba(80, 18, 224, 0.534)), url("../img/mainpage.jfif");
 }
 
 
 .best{
-    background-image: url("../img/best.jfif");
-}
-.best p {
-    font-size: 20px;
-    display: flex;
-}
-
-.best p1 {
-    font-size: 20px;
-    display: flex;
+    background-image: url("../img/best2.png");
+    height: 400px;
+    display:flex;
+    font-size: 25px;
+    color: white;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../img/best2.png");
 }
 
 
-
-.best h2{
-    margin-left: 40%;
-    margin-right: 60%;
-    width: 30em;
-}
 
 .about h3{
     margin-left: 45%;
@@ -122,5 +124,12 @@ ul li {
    }
 
 .banner{
-    display:flex;
+display:flex;
+font-size: 20px;
+height: 35px;
+
 }
+.banner li{
+    display: inline-block;
+}
+
