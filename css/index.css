@@ -71,21 +71,29 @@ h1{
     display:flex;
     font-size: 25px;
     color: white;
-    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url("../img/best2.png");
+    background: linear-gradient( rgba(19, 19, 19, 0.959), rgba(19, 19, 19, 0.959)), url("../img/best2.png");
 }
 
+.about{
+    background-image: url("../img/musician.jfif");
+    background: linear-gradient( rgba(19, 19, 19, 0.959), rgba(19, 19, 19, 0.959)), url("../img/musician.jfif");
 
+}
 
 .about h3{
     margin-left: 45%;
     margin-right: 55%;
     width: 30em;
+    color:white;
+    font-size: 40px;;
 }
 
 .about p{
     margin-left: 60%;
     margin-right: 40%;
     width: 30em;
+    color:white;
+    font-size: 20px;;
 }
 
 .booking h4{
@@ -133,3 +141,8 @@ height: 35px;
     display: inline-block;
 }
 
+
+.prev img{
+    width:30%;
+    margin-bottom: 100px;
+}
