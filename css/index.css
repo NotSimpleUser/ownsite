@@ -25,10 +25,10 @@ button{
 }
 
 .main-page p{
-    margin-left: 40%;
-    margin-right: 60%;
-    width: 500px;
-    font-size: 30px;
+    margin-left: 43%;
+    margin-right: 57%;
+    width: 600px;
+    font-size: 20px;
 }
 
 
@@ -41,10 +41,11 @@ button{
 }
 
 h1{
-    margin-left: 43%;
-    margin-right: 57%;
-    width: 500px;
-    font-size:50px;
+    margin-left: 33%;
+    margin-right: 77%;
+    width: 700px;
+    font-size:80px;
+    letter-spacing:10px;
     
 }
 
@@ -77,6 +78,7 @@ h1{
 .about{
     background-image: url("../img/musician.jfif");
     background: linear-gradient( rgba(19, 19, 19, 0.959), rgba(19, 19, 19, 0.959)), url("../img/musician.jfif");
+
 
 }
 
@@ -111,6 +113,8 @@ button{
 
 .about img{
     width:40%;
+
+
 }
 
 .staff img{
@@ -145,4 +149,39 @@ height: 35px;
 .prev img{
     width:30%;
     margin-bottom: 100px;
+}
+
+.cnt{
+    margin-top:450px;
+    font-family:sans-serif;
+
+}
+
+.best p1{
+    margin-top: 150px;
+}
+.best p{
+    margin-top: 200px;
+
+
+}
+
+h2{
+width: 250%;
+}
+
+.carousel{
+    width:250%;
+}
+
+.staff{
+ background-color:rgb(17, 17, 17);
+}
+.staff h6{
+    margin-left: 33%;
+    margin-right: 77%;
+    width: 700px;
+    font-size:50px;
+    letter-spacing:10px;
+    color:white;
 }
