@@ -22,7 +22,7 @@ class Carousel {
 }
 
 new Carousel([
-    'img/AdamInfo.png',
-    'img/JackInfo.png',
-    'img/MathewInfo.png'
+    'img/AdamInfo.jpg',
+    'img/JackInfo.jpg',
+    'img/MathewInfo.jpg'
 ]);
