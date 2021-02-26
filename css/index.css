@@ -244,3 +244,26 @@ h4{
 .Using{
     height:500px;
 }
+
+.main_menu li{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    margin-top:20px;
+}
+
+.main_menu li:hover {
+    background-size: 100% 2px;
+}
+.allprp{
+    display: flex;
+    margin-left: -2450px;
+}
+
+.allprp p{
+    font-size:19px;
+    color: rgb(107, 107, 107);
+}
