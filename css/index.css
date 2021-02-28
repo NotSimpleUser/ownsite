@@ -267,3 +267,19 @@ h4{
     font-size:19px;
     color: rgb(107, 107, 107);
 }
+
+.studios{
+    display: flex;
+}
+
+.stdA .bookingA{
+    margin-bottom:200px;
+}
+
+.carousel{
+    margin-left:720px;
+}
+
+.next{
+ margin-left:415px;
+}

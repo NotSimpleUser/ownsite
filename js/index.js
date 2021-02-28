@@ -26,3 +26,5 @@ new Carousel([
     'img/JackInfo.jpg',
     'img/MathewInfo.jpg'
 ]);
+
+
