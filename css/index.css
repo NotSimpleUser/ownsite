@@ -180,6 +180,7 @@ width: 250%;
 
 .carousel{
     width:200%;
+
 }
 
 .staff{
@@ -260,7 +261,7 @@ h4{
 }
 .allprp{
     display: flex;
-    margin-left: -2450px;
+    margin-left: -2900px;
 }
 
 .allprp p{
@@ -277,22 +278,46 @@ h4{
 }
 
 .carousel{
-    margin-left:720px;
+    margin-left:700px;
 }
 
 .next{
  margin-left:415px;
 }
 
-.booking .btnA{
-    margin-top:-400px;
-    margin-left:-20px;
+
+.prp{
+    display:flex;
+    justify-content: space-between;
+    margin-top:100px;
+}
+
+.staff{
+    background-image: url("../img/disco.jfif");
+    background: linear-gradient( rgba(19, 19, 19, 0.959), rgba(19, 19, 19, 0.959)), url("../img/musician.jfif");
+
 
 }
 
-.booking .btnB{
-    margin-top:-400px;
-    margin-left:-1px;
-
+.Using{
+ background-color: rgb(15, 15, 15);
+ color:white;
 }
 
+.staff h7{
+    font-size:40px;
+    color:white;
+    margin-left:850px;
+}
+
+.inst{
+    margin-left:450px;
+}
+
+.prp h6{
+    font-size:25px;
+}
+
+.prp{
+    justify-content: space-between;
+}
