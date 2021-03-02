@@ -92,29 +92,27 @@ h1{
 .about{
     background-image: url("../img/musician.jfif");
     background: linear-gradient( rgba(19, 19, 19, 0.959), rgba(19, 19, 19, 0.959)), url("../img/musician.jfif");
+    height:600px;
 
 
 }
 
 .about h3{
-    margin-left: 45%;
-    margin-right: 55%;
+    margin-left:700px;
     width: 30em;
     color:white;
     font-size: 40px;;
 }
 
 .about p{
-    margin-left: 60%;
-    margin-right: 40%;
+    margin-right:200px;
     width: 30em;
     color:white;
-    font-size: 20px;;
+    font-size:25px;
 }
 
 .booking h4{
-    margin-left: 45%;
-    margin-right: 55%;
+    margin-left:800px;
     width: 30em;
 }
 .buttons{
@@ -126,8 +124,8 @@ button{
 }
 
 .about img{
-    width:40%;
-
+    width:90%;
+    display: block;
 
 }
 
@@ -141,13 +139,13 @@ button{
     font-size:25px;
 }
 
+
+
+
 ul li {
     display: inline;
     margin-right: 5px;
-   
-   
-   
-   }
+    }
 
 .banner{
 display:flex;
@@ -161,10 +159,6 @@ justify-content: space-between;
 }
 
 
-.prev img{
-    width:30%;
-    margin-bottom: 100px;
-}
 
 .cnt{
     margin-top:450px;
@@ -261,7 +255,7 @@ h4{
 }
 .allprp{
     display: flex;
-    margin-left: -2900px;
+    margin-left: -3600px;
 }
 
 .allprp p{
@@ -304,6 +298,10 @@ h4{
  color:white;
 }
 
+.Using h5{
+font-size:35px;
+}
+
 .staff h7{
     font-size:40px;
     color:white;
@@ -319,5 +317,47 @@ h4{
 }
 
 .prp{
-    justify-content: space-between;
+    margin-right:300px;
 }
+
+.equip{
+margin-right:50px;
+margin-left: 50px;
+}
+
+.prev2{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+}
+
+.prev2 img{
+    width:50%;
+    margin-bottom: 100px;
+    margin-left:240px;
+}
+
+.prev2 button{
+    margin-left:350px;
+    margin-bottom:30px;
+}
+
+.studios img{
+    margin-left:160px;
+}
+
+.studios button{
+     margin-left:550px;
+     margin-bottom:400px;
+}
+
+.aboutA{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left:100px;
+}
+
+.best h2{
+    margin-left:700px;
+}
+
+

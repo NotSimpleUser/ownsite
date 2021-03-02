@@ -27,4 +27,3 @@ new Carousel([
     'img/MathewInfo.jpg'
 ]);
 
-
